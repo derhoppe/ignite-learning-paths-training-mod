@@ -14,7 +14,7 @@ In order to run the deployment, you will need the following decisions:
 
 ## Initial deployment
 
-The deployment for this session can be started by clicking on the `Deploy to Azure` button [at this location](https://github.com/microsoft/TailwindTraders-Website/tree/master/Source/Tailwind.Traders.Web/Standalone#deploy-to-azure-app-service-automatic-deployment).
+The deployment for this session can be started by clicking on the `Deploy to Azure` button [at this location](https://github.com/microsoft/TailwindTraders-Website/tree/main/Source/Tailwind.Traders.Web/Standalone#deploy-to-azure-app-service-automatic-deployment).
 
 This deployment installs a complete web application, including two databases (Azure SQL Database, CosmosDB) for the products and the shopping cart. It also installs all other resources needed to run this app.
 
@@ -42,7 +42,7 @@ In the browser window that opens, fill the data:
 
 - Repo URL leave the default value, which should be `https://github.com/microsoft/TailwindTraders-Website`
 
-- Branch: Leave the default value which shuld be `master`.
+- Branch: Leave the default value which shuld be `main`.
 
 Then check the terms and conditions checkbox and click on `Purchase`.
 

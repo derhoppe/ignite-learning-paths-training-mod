@@ -127,7 +127,7 @@ mongodb://[MONGOIP]:27017
 	"_id" : "5d665a5689c79d19d44b4799",
 	"productId" : 99,
 	"email" : "cxa@microsoft.com",
-	"imageUrl" : "https://github.com/ashleymcnamara/Developer-Advocate-Bit/blob/master/BitDevAdvocate.png?raw=true",
+	"imageUrl" : "https://github.com/ashleymcnamara/Developer-Advocate-Bit/blob/main/BitDevAdvocate.png?raw=true",
 	"name" : "Cloud Advocate Mascot",
 	"price" : "999",
 	"qty" : 3,

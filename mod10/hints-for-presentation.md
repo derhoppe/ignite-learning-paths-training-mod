@@ -14,7 +14,7 @@ ssh into VM!!!
 
 sudo su -  
 
-curl https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-mod/master/mod10/deploy.sh >deploy.sh
+curl https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-mod/main/mod10/deploy.sh >deploy.sh
 
 # HAVE YOUR CONNECTION STRINGS READY BEFORE
 

@@ -14,7 +14,7 @@ Be sure to address each item on the presenter setup checklist below.
 
 - [ ] Follow the steps for [Deployment](/mod50/deployment/README.md) and verify that everything is working
 - [ ] In VS Code, open Source\Tailwind.Traders.Web\ClientApp\src\assets\locales\translation.json
-- [ ] Ensure that [provided-azure-pipelines.yml](https://github.com/bbenz/TailwindTraders-Website/blob/master/provided-azure-pipelines.yml) is in your  local repo.
+- [ ] Ensure that [provided-azure-pipelines.yml](https://github.com/bbenz/TailwindTraders-Website/blob/main/provided-azure-pipelines.yml) is in your  local repo.
 - [ ] Open the [GitHub Marketplace](https://github.com/marketplace) and search for 'Azure Pipelines' 
 - [ ] Click Configure access then the configure button
 - [ ] Copy your GitHub password into the clipboard so you don;t have to retrieve/show it live

@@ -60,9 +60,9 @@ This training repository is divided in to the following sections:
 
 ### **Slides**
 
->**What's Here?** A speaking script, numbered slide thumbnails, and the master Powerpoint slide deck.
+>**What's Here?** A speaking script, numbered slide thumbnails, and the main Powerpoint slide deck.
 
-Begin by familiarizing yourself with the presentation. Speaking scripts and the master Powerpoint slide deck can be found in the [slides](slides/README.md) page.
+Begin by familiarizing yourself with the presentation. Speaking scripts and the main Powerpoint slide deck can be found in the [slides](slides/README.md) page.
  
 ### **Deployment**
 

@@ -37,7 +37,7 @@ az network vnet create --name ignitemod10vnet  --resource-group groupname --subn
 
 Ensure you have cloned this repository already as per the instructions in the main [README](https://github.com/microsoft/ignite-learning-paths-training-mod#do-the-demos) so you have the scripts locally and can edit them.
 
-Within [create-db.sh](https://github.com/microsoft/ignite-learning-paths-training-mod/blob/master/mod10/create-db.sh) there are a few bash variables to change.
+Within [create-db.sh](https://github.com/microsoft/ignite-learning-paths-training-mod/blob/main/mod10/create-db.sh) there are a few bash variables to change.
 
 ```
 #!/bin/bash
@@ -128,7 +128,7 @@ To elevate the current user as super and get the script `deploy.sh` execute the 
 
 ```bash
 sudo su -l
-curl https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-mod/master/mod10/deploy.sh >deploy.sh
+curl https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-mod/main/mod10/deploy.sh >deploy.sh
 ```
 
 Now, remember the connectionstrings `MongoConnectionString` and `SqlConnectionString` you noted? It's time to use them. You need to open `deploy.sh` update lines 28/29, and set `MongoConnectionString` and `SqlConnectionString` equal to the value return noted.

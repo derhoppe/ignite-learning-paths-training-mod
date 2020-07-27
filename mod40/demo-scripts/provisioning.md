@@ -15,7 +15,7 @@
 * Return to the App Service and restore the working connection string
 * Create a new App Service Deployment Slot called "staging" and clone all settings from the existing site. 
 * Open the new Deploy Slot once cloned and open "Deployment Center"
-* Select “External" under "Manual Deployment" and configureto the same repo/branch as the production slot (at time of writing that is: https://github.com/Microsoft/TailwindTraders-Website | master | Git | Public Repository). 
+* Select “External" under "Manual Deployment" and configureto the same repo/branch as the production slot (at time of writing that is: https://github.com/Microsoft/TailwindTraders-Website | main | Git | Public Repository). 
 * Once the site has deployed, change the MongoDB connection string (as above) to break it.
 * Browse to the staging site version of Tailwind Traders and attempt to add items to the cart (as above).
 * After throwing an exception, switch back to the Portal and drill into the issue from Application Insights and click on an exception. The first time you’ll need to click a link “don’t see a snapshot? troubleshoot” and add the appropriate role.

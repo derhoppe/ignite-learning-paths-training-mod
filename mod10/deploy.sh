@@ -28,7 +28,7 @@ export apiUrl=/api/v1
 export ApiUrlShoppingCart=/api/v1
 export MongoConnectionString=""
 export SqlConnectionString=""
-export productImagesUrl="https://raw.githubusercontent.com/microsoft/TailwindTraders-Backend/master/Deploy/tailwindtraders-images/product-detail"
+export productImagesUrl="https://raw.githubusercontent.com/microsoft/TailwindTraders-Backend/main/Deploy/tailwindtraders-images/product-detail"
 
 sleep .5
 
@@ -48,6 +48,6 @@ git clone https://github.com/neilpeterson/tailwind-reference-deployment.git
 apt-get install nginx -y
 service nginx start
 rm /etc/nginx/sites-available/default
-curl https://raw.githubusercontent.com/neilpeterson/tailwind-reference-deployment/master/deployment-artifacts-standalone-vm/default > /etc/nginx/sites-available/default
+curl https://raw.githubusercontent.com/neilpeterson/tailwind-reference-deployment/main/deployment-artifacts-standalone-vm/default > /etc/nginx/sites-available/default
 nginx -t
 nginx -s reload

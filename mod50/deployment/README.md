@@ -35,7 +35,7 @@ There are four parts to the deployment:
 
 ### Automated Backend Deployment
 
-Use the "deploy to Azure" button and choose the "Standalone" mode at [this link](https://github.com/microsoft/TailwindTraders-Website/tree/master/Source/Tailwind.Traders.Web/Standalone) to deploy the full backend system.
+Use the "deploy to Azure" button and choose the "Standalone" mode at [this link](https://github.com/microsoft/TailwindTraders-Website/tree/main/Source/Tailwind.Traders.Web/Standalone) to deploy the full backend system.
 
 Follow the steps on that page for standalone configuration.  
 Verify that the Web app that is generated as part of this deployment is fully operational.  
@@ -45,7 +45,7 @@ Verify that the Web app that is generated as part of this deployment is fully op
 Once you have created the standalone version of the backend application, and verified that it is fully operational, deploy the target Web Apps by pressing the blue "*Deploy to Azure*" button below.
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbbenz%2Fbrian-templates%2Fmaster%2Fapp-service%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbbenz%2Fbrian-templates%2Fmain%2Fapp-service%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -87,7 +87,7 @@ Open VS Code and verify that you can access the source code you will be changing
 ...TailwindTraders-Website\
 Open Source\Tailwind.Traders.Web\ClientApp\src\assets\locales\translation.json
 
-Copy provided-azure-pipelines.yml from https://github.com/bbenz/TailwindTraders-Website/blob/master/provided-azure-pipelines.yml to your local repo.
+Copy provided-azure-pipelines.yml from https://github.com/bbenz/TailwindTraders-Website/blob/main/provided-azure-pipelines.yml to your local repo.
 
 ## Next up: Steps to prep demos
 

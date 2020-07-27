@@ -6,7 +6,7 @@
 
 **MOD50 - Managing Delivery of your App via DevOps** PowerPoint presentation.
 
-[Download the master PowerPoint file](/mod50/presentations.md)
+[Download the main PowerPoint file](/mod50/presentations.md)
 
 [View Presentation thumbnails and a speaking script](script/MOD50_Speaking_Script.md)
 
